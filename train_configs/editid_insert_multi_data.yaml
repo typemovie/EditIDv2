@@ -1,0 +1,33 @@
+model_name: "flux-dev"
+local_config:
+  json_file:
+    - ./common/EditIDv2/data/all_prompts.json
+    - ./common/EditIDv2/scripts/merged_output.json
+  size: 512 # 512,768
+  image_root_path:
+    - ./IBench/data/images/Mystyle/
+    - ./IBench/data/images/editid/chinese/
+  train_batch_size: 1
+  num_workers: 1
+report_to: wandb
+train_batch_size: 1
+gradient_accumulation_steps: 2
+output_dir: ./common/EditIDv2/results/editid_v2_insert_512_5000_multi_data
+max_train_steps: 5000
+learning_rate: 1e-5
+lr_scheduler: constant
+lr_warmup_steps: 10
+adam_beta1: 0.9
+adam_beta2: 0.999
+adam_weight_decay: 0.01
+adam_epsilon: 1e-8
+max_grad_norm: 1.0
+logging_dir: logs
+mixed_precision: "bf16"
+checkpointing_steps: 500
+checkpoints_total_limit: 14
+tracker_project_name: editid_insert
+resume_from_checkpoint: latest
+single_blocks: null
+double_blocks: null
+disable_sampling: true
