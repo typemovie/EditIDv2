@@ -73,6 +73,7 @@ We provide sample prompts and results to showcase EditIDv2’s capabilities. For
     &lt;img src="assets/editidv21.png" width="1024"&gt;
 </p>
 
+
 ## 📄 Disclaimer
 
 This project is open-sourced for academic research. Images used are either generated or sourced from public datasets like MyStyle. If you have concerns, please contact us, and we will promptly address any issues. EditIDv2 is released under the Apache 2.0 License. When using other base models, ensure compliance with their licensing terms. This research advances personalized text-to-image generation. Users must comply with local laws and use the tool responsibly. The developers are not liable for misuse.
