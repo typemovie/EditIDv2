@@ -2,7 +2,7 @@
     EditIDv2: Editable ID Customization with Data-Lubricated ID Feature Integration for Text-to-Image Generation
 </h3>
 <p align="center"> 
-<a href="https://arxiv.org/abs/2510.XXXXX"><img alt="Build" src="https://img.shields.io/badge/Tech%20Report-EditIDv2-b31b1b.svg"></a>
+<a href="https://arxiv.org/abs/2509.05659"><img alt="Build" src="https://img.shields.io/badge/Tech%20Report-EditIDv2-b31b1b.svg"></a>
 <a href="https://typemovie.art/#/dashboard"><img src="https://img.shields.io/static/v1?label=Typemovie&message=application&color=green"></a>
 </p>
 <p align="center"> 
@@ -63,7 +63,7 @@ python infer.py --ckpt_path /path/to/editidv2_weights.pth
 
 ## 🌈 More Examples
 
-We provide sample prompts and results to showcase EditIDv2’s capabilities. For additional visualizations, check our [paper](https://arxiv.org/abs/2510.XXXXX).
+We provide sample prompts and results to showcase EditIDv2’s capabilities. For additional visualizations, check our [paper](https://arxiv.org/abs/2509.05659).
 
 #### Complex Narrative Scenes
 
@@ -99,11 +99,20 @@ For research purposes, cite our paper:
 bibtex
 
 ```
+@misc{li2025editidv2editableidcustomization,
+      title={EditIDv2: Editable ID Customization with Data-Lubricated ID Feature Integration for Text-to-Image Generation}, 
+      author={Guandong Li and Zhaobin Chu},
+      year={2025},
+      eprint={2509.05659},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2509.05659}, 
+}
+
 @article{li2025editid,
   title={EditID: Training-Free Editable ID Customization for Text-to-Image Generation},
   author={Li, Guandong and Chu, Zhaobin},
   journal={arXiv preprint arXiv:2503.12526},
   year={2025}
 }
-
 ```
