@@ -22,14 +22,14 @@
 <span style="font-size: 13.5px">iFlyTek Typemovie Research</span><br> 
 
 
-### 🚩 更新日志
+### 🚩  Updates
 
-* **2025.09.09** 🔥 EditIDv2技术报告正式发布于arXiv。
-* **2025.09.09** 🔥 EditIDv2项目代码正式开源，GitHub仓库现已开放，欢迎社区体验与反馈！
-* **2025.08.21** 🎉 EditID论文被EMNLP 2025接收，喜大奔普！
-* **2025.03.16** 🔥 EditID论文发布于arXiv。
-
-我们将持续开源更多资源，包括训练代码、模型权重和数据集，敬请期待！🌟
+* **2025.09.09** 🔥 EditIDv2 technical report officially published on arXiv.
+* **2025.09.09** 🔥 EditIDv2 project code officially open-sourced, GitHub repository now available, welcoming community feedback and engagement!
+* **2025.08.21** 🎉 EditID paper accepted by EMNLP 2025, exciting news!
+* **2025.03.16** 🔥 EditID paper published on arXiv.
+  
+We will continue to open-source more resources, including training code, model weights, and datasets. Stay tuned! 🌟
 
 ## 📖 Abstract
 
@@ -39,27 +39,27 @@ We propose EditIDv2, a tuning-free solution specifically designed for high-compl
     <img src="assets/editidv2.png" width="1024"/>
 </p>
 
-## ⚡️ 快速开始
+## ⚡️ Quick Start
 
-##### 🔧 训练
+##### 🔧 Training
 
-训练EditIDv2权重使用以下命令，配置文件位于./train_configs/editid_insert.yaml：
+Train EditIDv2 weights using the following command, with the configuration file located at ./train_configs/editid_insert.yaml:
 
 ```bash
 python train_editid_loss.py --config ./train_configs/editid_insert.yaml
 ```
 
-训练完成后，您将获得EditIDv2的模型权重，可用于后续推理。
+After training, you will obtain the EditIDv2 model weights, which can be used for subsequent inference.
 
-#### 🚀 推理
+#### 🚀 Inference
 
-EditIDv2的推理过程与PuLID完全兼容，您可以直接复用PuLID的推理代码或ComfyUI工作流，仅需替换为EditIDv2的训练权重。以下是快速上手步骤：
+The inference process for EditIDv2 is fully compatible with PuLID. You can directly reuse PuLID's inference code or ComfyUI workflow by simply replacing it with EditIDv2's trained weights. Here are the quick start steps:
 
 ```bash
 python infer.py --ckpt_path /path/to/editidv2_weights.pth
 ```
 
-或通过PuLID的ComfyUI工作流，加载EditIDv2权重，参考PuLID ComfyUI教程。
+Alternatively, use PuLID's ComfyUI workflow by loading the EditIDv2 weights. Refer to the PuLID ComfyUI tutorial for guidance.
 
 ## 🌈 More Examples
 
