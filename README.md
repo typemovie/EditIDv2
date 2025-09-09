@@ -35,7 +35,7 @@
 
 We propose EditIDv2, a tuning-free solution specifically designed for high-complexity narrative scenes and long text inputs. Existing character editing methods perform well under simple prompts, but often suffer from degraded editing capabilities, semantic understanding biases, and identity consistency breakdowns when faced with long text narratives containing multiple semantic layers, temporal logic, and complex contextual relationships. In EditID, we analyzed the impact of the ID integration module on editability. In EditIDv2, we further explore and address the influence of the ID feature integration module. The core of EditIDv2 is to discuss the issue of editability injection under minimal data lubrication. Through a sophisticated decomposition of PerceiverAttention, the introduction of ID loss and joint dynamic training with the diffusion model, as well as an offline fusion strategy for the integration module, we achieve deep, multi-level semantic editing while maintaining identity consistency in complex narrative environments using only a small amount of data lubrication. This meets the demands of long prompts and high-quality image generation, and achieves excellent results in the IBench evaluation.
 
-<p align="center">
+<p dir="auto" align="center">
     <img src="assets/editidv2.png" width="1024"/>
 </p>
 
@@ -68,9 +68,9 @@ We provide sample prompts and results to showcase EditIDv2’s capabilities. For
 #### Complex Narrative Scenes
 
 <details>
-<summary>EditIDv2 excels at placing a subject into complex narrative scenes while maintaining identity consistency. Use prompts like "A woman/man is doing..." for scene-driven generation. For pose or expression changes, provide reference images with varied attributes under the same ID.</summary>
-<p dir="auto" align="center" style="white-space: pre-wrap;">
-    &lt;img src="assets/editidv21.png" width="1024"&gt;
+<summary>EditIDv2 excels at placing a subject into complex narrative scenes while maintaining identity consistency. </summary>
+<p dir="auto" align="center">
+<img src="assets/editidv21.png" width="1024"/>
 </p>
 </details>
 
