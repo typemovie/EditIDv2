@@ -72,7 +72,7 @@ We provide sample prompts and results to showcase EditIDv2’s capabilities. For
 <p dir="auto" align="center" style="white-space: pre-wrap;">
     &lt;img src="assets/editidv21.png" width="1024"&gt;
 </p>
-
+</details>
 
 ## 📄 Disclaimer
 
