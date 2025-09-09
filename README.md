@@ -41,7 +41,7 @@ We propose EditIDv2, a tuning-free solution specifically designed for high-compl
 
 ## ⚡️ Quick Start
 
-##### 🔧 Training
+#### 🔧 Training
 
 Train EditIDv2 weights using the following command, with the configuration file located at ./train_configs/editid_insert.yaml:
 
