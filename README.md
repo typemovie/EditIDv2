@@ -24,11 +24,12 @@
 
 ### 🚩  Updates
 
+* **2025.12.29** 🎉 EditIDv2 paper accepted by Multimedia Systems, exciting news!
 * **2025.09.09** 🔥 EditIDv2 technical report officially published on arXiv.
 * **2025.09.09** 🔥 EditIDv2 project code officially open-sourced, GitHub repository now available, welcoming community feedback and engagement!
 * **2025.08.21** 🎉 EditID paper accepted by EMNLP 2025, exciting news!
 * **2025.03.16** 🔥 EditID paper published on arXiv.
-  
+
 We will continue to open-source more resources, including training code, model weights, and datasets. Stay tuned! 🌟
 
 ## 📖 Abstract
